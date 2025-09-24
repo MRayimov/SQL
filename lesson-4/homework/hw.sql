@@ -1,10 +1,5 @@
 
--- Lesson 4: Filtering and Ordering Data — Javoblar (SQL Server)
--- Eslatma: Quyidagi so'rovlar berilgan "Employees", "Products", "Customers", "Orders", "Sales" jadvallariga mos keladi.
 
-/*****************************************************************
- 🟢 EASY
-******************************************************************/
 
 -- 1) Employees jadvalidan TOP 5 xodimni tanlash
 SELECT TOP (5) *
@@ -62,9 +57,6 @@ FROM Products
 ORDER BY ProductName DESC;
 
 
-/*****************************************************************
- 🟠 MEDIUM
-******************************************************************/
 
 -- 11) Products: TOP(10) Price DESC bo‘yicha eng qimmatlari
 SELECT TOP (10) *
@@ -117,9 +109,6 @@ FROM Customers
 ORDER BY City ASC, PostalCode DESC;
 
 
-/*****************************************************************
- 🔴 HARD
-******************************************************************/
 
 -- 20) TOP(5) eng katta savdoga ega mahsulotlar: Sales jadvali bo‘yicha
 -- Eslatma: Bu yerda mahsulot bo‘yicha umumiy savdo summasi hisoblanadi.
